@@ -38,8 +38,8 @@ public class Main {
         passenger2.signUpForActivity(activity);
         passenger3.signUpForActivity(activity);
 
-//        destination.display();
-//        travelPackage1.displayPassengerDetails();
+        destination.display();
+        travelPackage1.displayPassengerDetails();
 
         travelPackage1.getPassengers().get(1).displayInfo();
         travelPackage1.displayAvailableActivities();
