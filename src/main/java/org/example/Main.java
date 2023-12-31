@@ -42,11 +42,24 @@ public class Main {
 //                1. travel package name,
 //                2. destinations and details of the activities available at each destination, like name, cost, capacity and description.
         travelPackage1.display();
-//        destination.display();
-//        travelPackage1.displayPassengerDetails();
-//
-//        travelPackage1.getPassengers().get(1).displayInfo();
-//        travelPackage1.displayAvailableActivities();
+
+//        2. Print the passenger list of the travel package including:
+//              1. package name,
+//              2. passenger capacity,
+//              3. number of passengers currently enrolled and
+//              4. name and number of each passenger
+        travelPackage1.displayPassengerDetails();
+
+//        3. Print the details of an individual passenger including their
+    //        1. name,
+    //        2. passenger number,
+    //        3. balance (if applicable),
+    //        4. list of each activity they have signed up for, including the destination the at which the activity is taking place and the price the passenger paid for the activity.
+        travelPackage1.getPassengers().get(0).displayInfo();
+
+
+//        4. Print the details of all the activities that still have spaces available, including how many spaces are available.
+        travelPackage1.displayAvailableActivities();
 
 
     }

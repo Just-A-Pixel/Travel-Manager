@@ -94,7 +94,7 @@ public class Activity implements TravelComponent {
      */
     @Override
     public void display() {
-        System.out.println("Activity: " + name + ", Description: " + description + ", Cost: " + cost + ", Capacity: " + capacity + "Destination: " + destination.getName());
+        System.out.println("Activity: " + name + ", Description: " + description + ", Cost: " + cost + ", Capacity: " + capacity + " Destination: " + destination.getName());
     }
 
     public String getName() {
