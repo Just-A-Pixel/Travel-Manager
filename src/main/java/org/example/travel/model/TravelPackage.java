@@ -76,7 +76,7 @@ public class TravelPackage implements TravelComponent {
      */
     @Override
     public void display() {
-        System.out.println("Travel Package Name: " + name + ", Passenger Capacity: " + passengerCapacity);
+        System.out.println("Travel Package Name: " + name + ", Passenger Capacity: " + passengerCapacity + " ");
         for (TravelComponent destination : destinations) {
             destination.display();
         }

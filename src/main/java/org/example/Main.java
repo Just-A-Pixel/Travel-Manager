@@ -38,11 +38,16 @@ public class Main {
         passenger2.signUpForActivity(activity);
         passenger3.signUpForActivity(activity);
 
-        destination.display();
-        travelPackage1.displayPassengerDetails();
+//        1. Print itinerary of the travel package including:
+//                1. travel package name,
+//                2. destinations and details of the activities available at each destination, like name, cost, capacity and description.
+        travelPackage1.display();
+//        destination.display();
+//        travelPackage1.displayPassengerDetails();
+//
+//        travelPackage1.getPassengers().get(1).displayInfo();
+//        travelPackage1.displayAvailableActivities();
 
-        travelPackage1.getPassengers().get(1).displayInfo();
-        travelPackage1.displayAvailableActivities();
 
     }
 }
